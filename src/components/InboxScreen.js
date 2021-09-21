@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
+import React from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 
-import TaskList from './TaskList';
+import TaskList from "./TaskList";
 
 export function PureInboxScreen({ error }) {
   if (error) {
@@ -30,7 +30,6 @@ export function PureInboxScreen({ error }) {
 }
 
 PureInboxScreen.propTypes = {
-  /** The error message */
   error: PropTypes.string,
 };
 
